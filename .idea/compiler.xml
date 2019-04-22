@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-api" />
+        <module name="microservice-config-dept-client-8002" />
+        <module name="microservice-config-dept-client-8003" />
+        <module name="microservice-consumer-dept-80" />
+        <module name="microservice-consumer-dept-feign" />
+        <module name="microservice-eureka-7001" />
+        <module name="microservice-eureka-7002" />
+        <module name="microservice-eureka-7003" />
+        <module name="microservice-provider-dept-8001" />
+        <module name="microservice-provider-dept-8002" />
+        <module name="microservice-provider-dept-8003" />
+        <module name="microservicec-provider-dept-8002" />
+        <module name="microservicezuul9527" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice" target="1.8" />
+      <module name="microservice-api" target="1.8" />
+      <module name="microservice-config-dept-client-8002" target="1.8" />
+      <module name="microservice-config-dept-client-8003" target="1.8" />
+      <module name="microservice-consumer-dept-80" target="1.8" />
+      <module name="microservice-consumer-dept-feign" target="1.8" />
+      <module name="microservice-eureka-7001" target="1.8" />
+      <module name="microservice-eureka-7002" target="1.8" />
+      <module name="microservice-eureka-7003" target="1.8" />
+      <module name="microservice-provider-dept-8001" target="1.8" />
+      <module name="microservice-provider-dept-8002" target="1.8" />
+      <module name="microservice-provider-dept-8003" target="1.8" />
+      <module name="microservicec-provider-dept-8002" target="1.8" />
+      <module name="microservicezuul9527" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

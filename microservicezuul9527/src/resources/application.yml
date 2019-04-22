@@ -1,0 +1,20 @@
+server:
+  port: 8001
+
+ 
+info: 
+  app.name: atguigu-microservice
+  company.name: www.atguigu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+spring:
+  application:
+    name: miscroservice-getway
+zuul:
+  routes:
+    aa.serviceId: #服务名
+    aa.path: #重命名
+  ignored-services: * #
+
+
+

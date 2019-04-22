@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.atguigu.springcloud.dao.DeptDao">
+
+	<!--<sql id="commonColumn" >
+		SELECT  id,`name` ,age
+	</sql>
+	<sql id="isFalse">
+		and 1 != 1;
+	</sql>-->
+	<select id="findById" resultType="com.atguigu.springcloud.entities.Dept" parameterType="Long">
+		select deptno,dname,db_source from dept where deptno=#{deptno}
+		<!--<if test="id == null">
+			<include refid="isFalse"></include>
+		</if>-->
+		<!--<foreach collection="ids" item="single_id" open=" and id in (" close=")" separator=",">
+			#{single_id}
+		</foreach>-->
+		;
+	</select>
+	<select id="findAll" resultType="com.atguigu.springcloud.entities.Dept">
+		select deptno,dname,db_source from dept;
+	</select>
+	<insert id="addDept" parameterType="com.atguigu.springcloud.entities.Dept">
+		INSERT INTO dept(dname,db_source) VALUES(#{dname},DATABASE());
+
+	</insert>
+	<!--返回对象带id的插入-->
+	<!--<insert id="addDept" useGeneratedKeys="true" keyProperty="deptno" parameterType="com.atguigu.springcloud.entities.Dept">
+		insert into user(userName,password,comment)
+		values(#{userName},#{password},#{comment})
+	</insert>-->
+</mapper>
+ 
+
