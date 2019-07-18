@@ -5,11 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/liujg001002/SpringcloudConfig.git
+          uri: https://github.com/liujg001002/SpringcloudConfig.git #码云版https://github.com/liujg001002/SpringcloudConfig.git
           search-paths: respo
-          username:
-          password:
-      label: master
+      label: master #默认master 可加可不加
 server:
   port: 8550
 

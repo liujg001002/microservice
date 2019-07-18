@@ -8,8 +8,8 @@ spring:
     name: config-client
   cloud:
     config:
-      label: master
+      label: master #默认master 可加可不加
       profile: dev
-      uri: http://localhost:8550/
+      uri: http://127.0.0.1:8550/
 server:
   port: 9550

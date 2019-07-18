@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConfigVarController {
 
-    @Value("${zuul.routes.api-b.serviceId}")
+    @Value("${test.username}")
     private String test;
 
     @GetMapping("/getvar")
