@@ -1,0 +1,21 @@
+package com.atguigu.springcloud;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.cloud.config.server.EnableConfigServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
+/**
+ * @author liujianguo
+ * @data 2019/7/17
+ * 描述：
+ */
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+@EnableEurekaClient
+@EnableConfigServer
+public class ConfigServer_App {
+    public static void main(String[] args) {
+        SpringApplication.run(ConfigServer_App.class,args);
+    }
+}

@@ -18,6 +18,8 @@
         <module>microservice-provider-dept-8003</module>
         <module>microservice-consumer-dept-feign</module>
         <module>microservicezuul9527</module>
+        <module>microservice-configserver-8550</module>
+        <module>microservice-configclient-9550</module>
     </modules>
     <packaging>pom</packaging>
 

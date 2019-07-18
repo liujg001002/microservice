@@ -10,6 +10,8 @@
         <module name="microservice-api" />
         <module name="microservice-config-dept-client-8002" />
         <module name="microservice-config-dept-client-8003" />
+        <module name="microservice-configclient-9550" />
+        <module name="microservice-configserver-8550" />
         <module name="microservice-consumer-dept-80" />
         <module name="microservice-consumer-dept-feign" />
         <module name="microservice-eureka-7001" />
@@ -27,6 +29,9 @@
       <module name="microservice-api" target="1.8" />
       <module name="microservice-config-dept-client-8002" target="1.8" />
       <module name="microservice-config-dept-client-8003" target="1.8" />
+      <module name="microservice-config-service-8550" target="1.8" />
+      <module name="microservice-configclient-9550" target="1.8" />
+      <module name="microservice-configserver-8550" target="1.8" />
       <module name="microservice-consumer-dept-80" target="1.8" />
       <module name="microservice-consumer-dept-feign" target="1.8" />
       <module name="microservice-eureka-7001" target="1.8" />
@@ -36,6 +41,7 @@
       <module name="microservice-provider-dept-8002" target="1.8" />
       <module name="microservice-provider-dept-8003" target="1.8" />
       <module name="microservicec-provider-dept-8002" target="1.8" />
+      <module name="microserviceconfigserver8550" target="1.8" />
       <module name="microservicezuul9527" target="1.8" />
     </bytecodeTargetLevel>
   </component>

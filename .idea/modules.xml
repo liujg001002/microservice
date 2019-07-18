@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/microservice.iml" filepath="$PROJECT_DIR$/microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-api/microservice-api.iml" filepath="$PROJECT_DIR$/microservice-api/microservice-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-configclient-9550/microservice-configclient-9550.iml" filepath="$PROJECT_DIR$/microservice-configclient-9550/microservice-configclient-9550.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-configserver-8550/microservice-configserver-8550.iml" filepath="$PROJECT_DIR$/microservice-configserver-8550/microservice-configserver-8550.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-dept-80/microservice-consumer-dept-80.iml" filepath="$PROJECT_DIR$/microservice-consumer-dept-80/microservice-consumer-dept-80.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-dept-feign/microservice-consumer-dept-feign.iml" filepath="$PROJECT_DIR$/microservice-consumer-dept-feign/microservice-consumer-dept-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-eureka-7001/microservice-eureka-7001.iml" filepath="$PROJECT_DIR$/microservice-eureka-7001/microservice-eureka-7001.iml" />

@@ -3,6 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-service-8550" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-configclient-9550" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-configserver-8550" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-dept-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-dept-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-eureka-7001" charset="UTF-8" />
@@ -11,6 +14,7 @@
     <file url="file://$PROJECT_DIR$/microservice-provider-dept-8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provider-dept-8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provider-dept-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microserviceconfigserver8550" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicezuul9527" charset="UTF-8" />
   </component>
 </project>
