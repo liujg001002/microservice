@@ -2,12 +2,11 @@ package com.atguigu.springcloud.controller;
 
 import com.atguigu.springcloud.entities.Dept;
 import com.atguigu.springcloud.service.DeptClientService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 
@@ -17,7 +16,7 @@ import java.util.List;
 public class DeptController_Consumer
 {
 
-	@Autowired
+	@Resource
 	DeptClientService service;
 	//private static final String REST_URL_PREFIX = "http://localhost:8001";
 	private static final String REST_URL_PREFIX = "http://MICROSERVICE-DEPT";
